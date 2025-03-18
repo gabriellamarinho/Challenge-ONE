@@ -19,9 +19,6 @@ A aplicação possui as seguintes funcionalidades:
 * **Visualizar Lista:** Apresenta em tempo real os nomes que foram adicionados à lista, proporcionando uma visão clara dos participantes do sorteio.
 * **Sorteio Aleatório:** Ao clicar no botão "Sortear Amigo", um dos nomes presentes na lista é selecionado de forma completamente aleatória e o resultado é exibido na página.
 
-**Demonstração:**
-
-Para visualizar a demonstração do projeto, basta abrir o arquivo `index.html` em seu navegador web após seguir as instruções de execução. Você poderá interagir com a aplicação, adicionando nomes e realizando o sorteio.
 
 ## Objetivo do Projeto
 
