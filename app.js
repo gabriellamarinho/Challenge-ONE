@@ -32,26 +32,16 @@ function atualizarLista() {
 
 function sortearAmigo() {
   if (amigos.length === 0) {
-    alert("Adicione amigos à lista antes de sortear.");
+    alert("Não é possivel fazer o sorteio se não há nomes na lista");
     return;
   }
 
   const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+
   const amigoSorteado = amigos[indiceAleatorio];
+
   const resultadoElement = document.getElementById("resultado");
+
   resultadoElement.innerHTML = `<li class="result-item">O amigo secreto sorteado foi: <strong>${amigoSorteado}</strong></li>`;
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  const botaoAdicionar = document.querySelector(".button-add");
-  if (botaoAdicionar) {
-    botaoAdicionar.addEventListener('click', adicionarAmigo);
-  }
-
-  const botaoSortear = document.querySelector(".button-draw");
-  if (botaoSortear) {
-    botaoSortear.addEventListener('click', sortearAmigo);
-  }
-
-  atualizarLista();
-});
