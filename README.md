@@ -44,11 +44,11 @@ Para executar o projeto em sua máquina, siga os seguintes passos:
 
 1.  **Clone o repositório (se aplicável):** Caso este projeto esteja em um repositório online (como GitHub), clone-o para o seu computador utilizando o comando:
     ```bash
-    git clone [https://github.com/dolthub/dolt](https://github.com/dolthub/dolt)
+    git clone https://github.com/gabriellamarinho/Challenge-ONE.git
     ```
 2.  **Acesse a pasta do projeto:** Navegue até a pasta onde os arquivos do projeto foram salvos:
     ```bash
-    cd [nome da pasta do projeto]
+    cd Challenge-ONE
     ```
 3.  **Abra o arquivo `index.html` no seu navegador web:** Localize o arquivo `index.html` na pasta do projeto e clique duas vezes nele para abri-lo com o seu navegador padrão.
 
